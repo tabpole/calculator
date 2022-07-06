@@ -17,11 +17,6 @@ class CalculatorView extends GetView<CalculatorController> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ColorManager.PRIMARY,
-      appBar: AppBar(
-        title: const Text('Calculator'),
-        backgroundColor: ColorManager.ACCENT,
-        centerTitle: true,
-      ),
       body: Column(
         children: [
           const Expanded(
