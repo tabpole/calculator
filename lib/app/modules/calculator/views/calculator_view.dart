@@ -1,8 +1,6 @@
 import 'package:calculator/app/modules/calculator/components/input_output.dart';
 import 'package:flutter/material.dart';
 
-import 'package:get/get.dart';
-
 import '../../../core/values/colors.dart';
 import '../components/component_five.dart';
 import '../components/component_four.dart';
