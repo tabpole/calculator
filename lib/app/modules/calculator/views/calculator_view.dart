@@ -1,4 +1,3 @@
-import 'package:calculator/app/modules/calculator/components/input_output.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/values/colors.dart';
@@ -7,6 +6,7 @@ import '../components/component_four.dart';
 import '../components/component_one.dart';
 import '../components/component_three.dart';
 import '../components/component_two.dart';
+import '../components/input_output.dart';
 
 class CalculatorView extends StatelessWidget {
   const CalculatorView({Key? key}) : super(key: key);
