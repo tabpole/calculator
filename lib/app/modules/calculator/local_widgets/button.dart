@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/values/colors.dart';
+
 class Button extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
@@ -27,7 +29,7 @@ class Button extends StatelessWidget {
         text,
         style: TextStyle(
           fontSize: 24,
-          color: textAccentColor ? Colors.white : Colors.black,
+          color: textAccentColor ? TextColorManager.ACCENT : TextColorManager.ACCENT_ALT,
         ),
       ),
     );

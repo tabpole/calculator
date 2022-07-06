@@ -21,7 +21,7 @@ class InputOutput extends GetView<CalculatorController> {
               '${controller.input}',
               style: const TextStyle(
                 fontSize: 32,
-                color: ColorManager.ACCENT_ALT,
+                color: TextColorManager.PRIMARY,
               ),
             ),
           ),
@@ -30,7 +30,7 @@ class InputOutput extends GetView<CalculatorController> {
               '${controller.output}',
               style: const TextStyle(
                 fontSize: 32,
-                color: Colors.white,
+                color: TextColorManager.ACCENT,
               ),
             ),
           ),
