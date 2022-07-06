@@ -21,7 +21,7 @@ class ComponentOne extends GetView<CalculatorController> {
         ),
         Button(
           text: 'C',
-          onPressed: () => controller.clearInput(),
+          onPressed: () => controller.removeLastInput(),
           color: ColorManager.ACCENT_ALT,
           textAccentColor: false,
         ),
