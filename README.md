@@ -1,16 +1,5 @@
-# calculator
+# Calculator
 
-A new Flutter project.
+A Flutter project. This app has been built following the guidelines of [getx pattern](https://github.com/kauemurakami/getx_pattern).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![calculator](https://user-images.githubusercontent.com/31237736/177630540-5213544f-02ee-4cf6-9c9b-17846405030d.png)
